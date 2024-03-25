@@ -1,0 +1,27 @@
+Title Page: Variational Quantum Eigensolver Implemented on a 1D Quantum Harmonic oscillator, my photo, photo of SAND and photo of NIP.
+
+Line 0: Good day. My name is John Samuel Suico and I'm here to show a brief presentation of my undergraduate thesis.
+
+Line 1: Quantum computers offer a different paradigm of processing information using the principles of quantum mechanics.
+Line 2: The smallest unit of information in this paradigm is known as a qubit, which exists in a superposition of binary states ket 0 and ket 1
+Line 3: As opposed to a classical bit which can only be in either state 0 or state 1.
+
+Line 4: This implies that $n$ qubits gives us access to $2^n$ bits of information, offering new methods to tackle computationally hard problems. (1 sec)
+
+Line 5: We consider a particular hybrid algorithm known as the Variational Quantum Eigensolver (1 sec), which minimizes the energy of a system using the variational principle of quantum mechanics.
+
+Line 6: We study a single particle 1D Harmonic Oscillator, which models the physics of a particle in a parabolic potential trap.
+
+Line 7: To work on a quantum computer, we discretize the operators, representing them as matrices (1 sec), and set \hbar,\omega,m to 1. The position operator represents a lattice of points with arbitrary precision determining the size of the matrix and accuracy of the approximation.
+
+Line 8: To measure this on a quantum computer, the Hamiltonian is written as a weighted sum of Pauli strings, or tensor products of Pauli and Identity matrices. (2 sec)
+
+Line 9: The Pauli strings are then measured over a parameterized ansatz, which is a quantum circuit composed of rotational and entangling gates. 
+
+Line 10: Each term in the Pauli string is measured separately over each qubit in the Ansatz, and the eigenvalues are multiplied together and averaged over many repetitions of this process.
+
+Line 11: The summation is then carried out in a classical computer, and the parameters are optimized in each iteration so as to arrive at the ground state energy. (2 sec, middle)
+
+Line 12: The results show that the VQE Pipeline successfully minimized the energy, except for the position basis Hamiltonian in the 4 Qubit Ansatz which struggled to converge.
+
+Line 13: Studies like this lead towards better simulation of quantum materials in order to understand their properties. (add picture, 5 seconds))
